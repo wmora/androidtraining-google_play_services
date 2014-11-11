@@ -1,4 +1,4 @@
-package com.melitraining.support_gps;
+package com.melitraining.google_play_services;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,9 +1,9 @@
-package com.melitraining.support_gps;
+package com.melitraining.google_play_services;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import fragments.MainFragment;
+import com.melitraining.google_play_services.fragments.MainFragment;
 
 
 public class MainActivity extends Activity {

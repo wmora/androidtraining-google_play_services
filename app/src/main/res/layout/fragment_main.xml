@@ -8,12 +8,6 @@
               android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
-        android:id="@+id/go_to_support_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to SupportActivity"/>
-
-    <Button
         android:id="@+id/go_to_maps_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
