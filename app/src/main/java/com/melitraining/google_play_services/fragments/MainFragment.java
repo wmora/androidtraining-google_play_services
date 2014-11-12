@@ -1,12 +1,14 @@
 package com.melitraining.google_play_services.fragments;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.melitraining.google_play_services.ExampleMapActivity;
 import com.melitraining.google_play_services.R;
 
 public class MainFragment extends Fragment {
@@ -28,6 +30,8 @@ public class MainFragment extends Fragment {
     }
 
     private void goToMapsActivity() {
-
+        Intent intent = new Intent();
+        intent.setClass(getActivity().getApplicationContext(),ExampleMapActivity.class);
+        startActivity(intent);
     }
 }
